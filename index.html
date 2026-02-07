@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Ángel Cruz Pérez | Geólogo & Data Scientist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50; /* Azul oscuro profesional */
+            --accent-color: #2980b9; /* Azul enlace */
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        .container {
+            display: flex;
+            max-width: 1100px;
+            margin: 40px auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        /* Sidebar (Izquierda) */
+        .sidebar {
+            width: 30%;
+            background-color: #fff;
+            padding: 40px;
+            text-align: center;
+            border-right: 1px solid #eee;
+        }
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--bg-color);
+            margin-bottom: 20px;
+        }
+        .name { font-size: 1.6rem; color: var(--primary-color); margin-bottom: 5px; }
+        .title { font-size: 0.9rem; color: #666; margin-bottom: 20px; font-weight: normal; }
+        .social-links a {
+            color: var(--primary-color);
+            margin: 0 10px;
+            font-size: 1.2rem;
+            transition: 0.3s;
+        }
+        .social-links a:hover { color: var(--accent-color); }
+        .contact-info { text-align: left; margin-top: 30px; font-size: 0.9rem; }
+        .contact-info p { margin: 10px 0; display: flex; align-items: center; }
+        .contact-info i { width: 25px; color: var(--accent-color); }
+
+        /* Contenido Principal (Derecha) */
+        .main-content {
+            width: 70%;
+            padding: 50px;
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .section { margin-bottom: 40px; }
+        .job-item { margin-bottom: 20px; }
+        .job-title { font-weight: bold; font-size: 1.1rem; }
+        .job-meta { color: #7f8c8d; font-size: 0.9rem; margin-bottom: 5px; }
+        .tags span {
+            background: #e1ecf4;
+            color: #2c3e50;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            margin-right: 5px;
+        }
+
+        /* Responsivo para móviles */
+        @media (max-width: 768px) {
+            .container { flex-direction: column; margin: 0; }
+            .sidebar, .main-content { width: 100%; padding: 30px; }
+            .sidebar { border-right: none; border-bottom: 1px solid #eee; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <aside class="sidebar">
+        <img src="https://via.placeholder.com/180" alt="Miguel Cruz" class="profile-img">
+        
+        <h1 class="name">Miguel Ángel Cruz Pérez</h1>
+        <h3 class="title">Geólogo & Consultor ESG | PhD Candidate</h3>
+        
+        <div class="social-links">
+            <a href="https://linkedin.com/in/tu-usuario" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/tu-usuario" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:miguelcruzzp@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> Florianópolis, SC (Brasil)</p>
+            <p><i class="fas fa-university"></i> UDESC & UNESCO Expert</p>
+            <p><i class="fas fa-globe"></i> Español, Português, English</p>
+        </div>
+        
+        <div style="margin-top: 30px; text-align: left;">
+            <p><strong>Intereses:</strong></p>
+            <div class="tags">
+                <span>ESG & TNFD</span>
+                <span>Geoparks</span>
+                <span>Python</span>
+                <span>GIS</span>
+                <span>Green Finance</span>
+            </div>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        
+        <div class="section">
+            <h2>Sobre mí</h2>
+            <p>
+                Soy un geólogo apasionado por la intersección entre las <strong>Ciencias de la Tierra, la Política Pública y el Análisis de Datos</strong>. 
+                Actualmente curso mi Doctorado en Planificación Territorial en la UDESC (Brasil), investigando contabilidad ambiental y finanzas verdes.
+            </p>
+            <p>
+                Cuento con más de 13 años de experiencia, incluyendo misiones internacionales como Evaluador para la <strong>UNESCO</strong> y roles estratégicos en el Gobierno de México (SHCP). 
+                Me especializo en traducir riesgos climáticos físicos a métricas financieras (IFRS S2/TNFD) utilizando Python y sistemas de información geográfica.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Experiencia Destacada</h2>
+            
+            <div class="job-item">
+                <div class="job-title">PhD Researcher Fellow</div>
+                <div class="job-meta">UDESC - Universidade do Estado de Santa Catarina | 2025 - Presente</div>
+                <p>Investigación en valoración de capital natural y ecosistemas de innovación en Florianópolis.</p>
+            </div>
+
+            <div class="job-item">
+                <div class="job-title">Lead ESG Auditor & Evaluator</div>
+                <div class="job-meta">UNESCO International Geoscience Program | 2020 - Presente</div>
+                <p>Misiones técnicas de auditoría y Due Diligence en geoparques mundiales (Brasil, Canadá, Europa).</p>
+            </div>
+
+            <div class="job-item">
+                <div class="job-title">Co-Founder & Nature Risk Lead</div>
+                <div class="job-meta">GEOGUÍAS (Incubada UNAM) | 2021 - 2025</div>
+                <p>Desarrollo de estrategias de licencia social y modelos de negocio sostenibles basados en patrimonio geológico.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Proyectos & Código</h2>
+            <p>Combinando geología con ciencia de datos:</p>
+            <ul>
+                <li><strong>ncpy-core:</strong> Librería propia en Python para análisis de datos geoespaciales (En desarrollo).</li>
+                <li><strong>Compliance Scanner:</strong> Herramienta de análisis de riesgo regulatorio y sostenibilidad (Concepto).</li>
+                <li><strong>Geoturismo Virtual:</strong> Creador del curso "Piensa como geólogo".</li>
+            </ul>
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html>
